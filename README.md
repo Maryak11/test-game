@@ -20,4 +20,8 @@ yarn dev
 
 ```
 
+## Node Version
+
+v16.17.1
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
