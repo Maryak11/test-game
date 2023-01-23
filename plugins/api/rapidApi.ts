@@ -1,6 +1,3 @@
-// import { AxiosInstance, AxiosResponse } from 'axios';
-// import { IRuntimeConfig } from '.';
-
 import { AxiosResponse } from 'axios';
 import { ICard } from '~~/stores/cards';
 import { IRuntimeConfig } from '.';

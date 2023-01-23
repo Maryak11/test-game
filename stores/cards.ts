@@ -39,7 +39,7 @@ export const useCardsStore = defineStore('cards', () => {
     filteredCards.value = getThreeRandomElements(cardsWithImgOnly);
   };
 
-  const getCardsWithImgOnly = () => {
+  const getCardsWithImgOnly = (): ICard[] => {
     return cards.value.filter((card) => card.img);
   };
 

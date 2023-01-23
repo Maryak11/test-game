@@ -7,7 +7,7 @@ export const useEnemyStore = defineStore('enemy', () => {
   const health = ref<number>(30);
   const damage = ref<number>(0);
 
-  const healthProcent = computed(() => {
+  const healthProcent = computed((): number => {
     if (damage.value === 0) return 100;
     if (damage.value >= 0) return 100 - (damage.value * 100) / 30;
     return 0;
