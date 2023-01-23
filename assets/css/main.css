@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .customContainer {
+    @apply mx-auto w-full px-4  sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px];
+    @apply dark:text-white;
+  }
+}
